@@ -28,7 +28,7 @@ Start the development web server:
 
 Run the example tests:
 
-    python setup.py test -q
+    nosetests
 
 
 ## Example Requests

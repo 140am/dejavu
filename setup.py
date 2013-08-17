@@ -10,6 +10,8 @@ requires = [
     'pyramid_debugtoolbar',
     'pyramid_exclog',
     'waitress',
+    'nose',
+    'coverage',
     'SQLAlchemy',
     'zope.sqlalchemy',
     'transaction',

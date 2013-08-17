@@ -14,7 +14,7 @@ def main(global_config, **settings):
     config = Configurator(settings=settings)
 
     # http://docs.pylonsproject.org/projects/pyramid_exclog/dev/api.html#pyramid_exclog.includeme
-    # config.include('pyramid_exclog')
+    config.include('pyramid_exclog')
     # https://pylonsproject.org/projects/pyramid_tm/dev/api.html#pyramid_tm.includeme
     config.include('pyramid_tm')
     # https://docs.pylonsproject.org/projects/pyramid_jinja2/dev/api.html#pyramid_jinja2.includeme

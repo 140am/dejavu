@@ -8,14 +8,14 @@ README = open(os.path.join(here, 'README.md')).read()
 requires = [
     'pyramid==1.4',
     'pyramid_debugtoolbar',
+    'pyramid_exclog',
+    'waitress',
     'SQLAlchemy',
+    'zope.sqlalchemy',
     'transaction',
     'pyramid_tm',
-    #'pyramid_exclog',
-    'pyramid_jinja2',
-    'zope.sqlalchemy',
-    'waitress',
     #'mysql-python',
+    'pyramid_jinja2'
     ]
 
 setup(name='hellopyramid',

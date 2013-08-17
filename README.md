@@ -37,6 +37,8 @@ View all records via `GET /ressource`:
 
     curl http://0.0.0.0:6543/hello
 
+    curl -H 'X-Requested-With: XMLHttpRequest' http://0.0.0.0:6543/hello
+
 View a single record via `GET /ressource/:id`:
 
     curl http://0.0.0.0:6543/hello/1

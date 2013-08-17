@@ -9,7 +9,8 @@ from hellopyramid import models
 log = logging.getLogger(__name__)
 
 
-@view_config(route_name='users', renderer='json', request_method='GET')
+@view_config(route_name='users', renderer='hello/list.jinja2', request_method='GET')
+@view_config(route_name='users', renderer='json', request_method='GET', xhr=True)
 def list_users(request):
 
     obj_list = models.DBSession.query(

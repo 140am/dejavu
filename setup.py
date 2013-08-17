@@ -7,11 +7,12 @@ README = open(os.path.join(here, 'README.md')).read()
 
 requires = [
     'pyramid==1.4',
+    'pyramid_debugtoolbar',
     'SQLAlchemy',
     'transaction',
     'pyramid_tm',
-    'pyramid_debugtoolbar',
     #'pyramid_exclog',
+    'pyramid_jinja2',
     'zope.sqlalchemy',
     'waitress',
     #'mysql-python',

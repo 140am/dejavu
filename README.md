@@ -52,9 +52,9 @@ Create a new record via `POST /ressource`:
 
 * hellopyramid/__init__.py : WSGI application
 
-* models/__init__.py : SQLalchemy data model
+* hellopyramid/models/__init__.py : SQLalchemy data model
 
-* controllers/hello : example controller
+* hellopyramid/controllers/hello : example controller
 
     * controllers/hello/__init__.py : URL routing
 
